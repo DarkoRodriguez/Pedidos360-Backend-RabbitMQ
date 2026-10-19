@@ -24,7 +24,6 @@ import pedidos360.admin.service.RabbitAdminService;
 /**
  * Controlador REST para la Administración de RabbitMQ.
  * Expone endpoints estandarizados para gestión de Colas, Exchanges y Bindings.
- * Cumple con los Criterios 6, 7 y 8 de la Rúbrica.
  */
 @RestController
 @RequestMapping("/api/admin")

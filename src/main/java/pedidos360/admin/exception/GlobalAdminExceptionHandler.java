@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
  * Manejador global de excepciones para el microservicio administrador.
- * Garantiza respuestas de error estructuradas y claras cuando ocurren
- * fallos de validación en los DTOs o en la lógica de negocio (Criterio 8).
  */
 @RestControllerAdvice
 public class GlobalAdminExceptionHandler {
